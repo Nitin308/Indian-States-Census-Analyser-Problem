@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndianStatesCensusAnalyserProblem", "IndianStatesCensusAnalyserProblem.csproj", "{FE6DFE75-4431-4681-8545-780CF3955B0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{E59E38BD-52D1-4010-9C7F-56BA46D5BF96}"
+	ProjectSection(SolutionItems) = preProject
+		CensusDTO.cs = CensusDTO.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataDAO", "DataDAO", "{8718498E-B2A1-4574-8BE9-A62C8BDB37CC}"
+	ProjectSection(SolutionItems) = preProject
+		PopulationDataDAO.cs = PopulationDataDAO.cs
+		StateCodeDataDAO.cs = StateCodeDataDAO.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{AE60FE9A-C76A-4ECC-9BA6-16534212C225}"
+	ProjectSection(SolutionItems) = preProject
+		AssemblyInfo.cs = AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18CBA229-E9CF-4D87-8A16-F463F078A296}"
+	ProjectSection(SolutionItems) = preProject
+		App.config = App.config
+		CensusAdapter.cs = CensusAdapter.cs
+		CensusAnalyser.cs = CensusAnalyser.cs
+		CensusAnalyserException.cs = CensusAnalyserException.cs
+		CSVAdapterFactory.cs = CSVAdapterFactory.cs
+		IndianCensusAdapter.cs = IndianCensusAdapter.cs
+		Program.cs = Program.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE6DFE75-4431-4681-8545-780CF3955B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6DFE75-4431-4681-8545-780CF3955B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6DFE75-4431-4681-8545-780CF3955B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6DFE75-4431-4681-8545-780CF3955B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BB94EC7-2E41-4AF0-A203-2E79BF145708}
+	EndGlobalSection
+EndGlobal

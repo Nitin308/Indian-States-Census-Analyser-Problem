@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndianStatesCensusAnalyserProblem", "IndianStatesCensusAnalyserProblem.csproj", "{8F3357DF-E9BF-4FFD-9C59-DCE458CDB301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{71DF93BE-36A9-4E7B-96C4-894BB44BD770}"
+	ProjectSection(SolutionItems) = preProject
+		App.config = App.config
+		CensusAdapter.cs = CensusAdapter.cs
+		CensusAnalyser.cs = CensusAnalyser.cs
+		CensusAnalyserException.cs = CensusAnalyserException.cs
+		CSVAdapterFactory.cs = CSVAdapterFactory.cs
+		IndianCensusAdapter.cs = IndianCensusAdapter.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{79985A6C-18EF-4994-BF9A-25505106E945}"
+	ProjectSection(SolutionItems) = preProject
+		AssemblyInfo.cs = AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{E6B1D2B1-0208-4BB8-981E-89B192DC508B}"
+	ProjectSection(SolutionItems) = preProject
+		CensusDTO.cs = CensusDTO.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataDAO", "DataDAO", "{3C48C890-68C9-49AC-A586-4A0B80E328F0}"
+	ProjectSection(SolutionItems) = preProject
+		PopulationDataDAO.cs = PopulationDataDAO.cs
+		StateCodeDataDAO.cs = StateCodeDataDAO.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSVFiles", "CSVFiles", "{BAB003D1-AA2A-4A42-BC59-E5232F8538DA}"
+	ProjectSection(SolutionItems) = preProject
+		DelimiterIndiaStateCensusData.csv = DelimiterIndiaStateCensusData.csv
+		DelimiterIndiaStateCode.csv = DelimiterIndiaStateCode.csv
+		IndianPopulation.csv = IndianPopulation.csv
+		IndianPopulation.txt = IndianPopulation.txt
+		IndiaStateCode.csv = IndiaStateCode.csv
+		IndiaStateCode.txt = IndiaStateCode.txt
+		WrongIndiaStateCensusData.csv = WrongIndiaStateCensusData.csv
+		WrongIndiaStateCode.csv = WrongIndiaStateCode.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F3357DF-E9BF-4FFD-9C59-DCE458CDB301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3357DF-E9BF-4FFD-9C59-DCE458CDB301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3357DF-E9BF-4FFD-9C59-DCE458CDB301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3357DF-E9BF-4FFD-9C59-DCE458CDB301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5390F8B7-0A25-430C-9678-8A75228A0F2A}
+	EndGlobalSection
+EndGlobal
